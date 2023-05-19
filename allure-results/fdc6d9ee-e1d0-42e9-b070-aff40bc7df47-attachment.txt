@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//li[contains(text(), 'Deve conter o DDD e o número de um celular válido.')]"
+}

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//app-root/div[@class='container-main']//app-credit-wizard[@class='ng-star-inserted']/app-partner-questions[@class='ng-star-inserted']//app-form-by-step/form/div[2]/div[4]//button[@type='submit']"
+}

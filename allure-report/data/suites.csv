@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu May 18 21:48:30 BRT 2023","Thu May 18 21:48:48 BRT 2023","17615","","Testes de Login","","","","Teste com Usuário Válido",""
+"passed","Thu May 18 21:48:48 BRT 2023","Thu May 18 21:49:02 BRT 2023","14049","","Testes de Login","","","","Teste com Usuário Inválido",""
+"passed","Thu May 18 21:48:30 BRT 2023","Thu May 18 21:49:30 BRT 2023","60025","","Solicita Cartão de Crédito","","","","Teste Solicita Cartão PicPay",""
+"passed","Thu May 18 21:48:30 BRT 2023","Thu May 18 21:50:06 BRT 2023","95677","","Solicita Empréstimo","","","","Teste Solicita Empréstimo - Banco PAN",""

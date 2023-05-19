@@ -1,0 +1,10 @@
+module.exports = {
+    browser: 'chrome',
+    baseUrl: 'https://serasa.dev/',
+    logLevel: 'info',
+    usuarioValido: '101.070.800-79',
+    senhaValida: 'HUB#2020',
+    usuarioInvalido: '123.456.789-00',
+    senhaInvalida: '123',
+    timeout: 15000
+}
