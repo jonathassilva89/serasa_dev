@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//select[@name='195']/option[42]"
-}
