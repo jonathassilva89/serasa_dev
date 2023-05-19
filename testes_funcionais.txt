@@ -1,0 +1,27 @@
+-> Validações de Login 
+	Usuário, 
+	Senha
+
+-> Validações da Página "Ínicio"
+	Valor do Score,
+	Redirecionamento correto de links
+	
+-> Validações da Página "Finanças"
+	Valor do Score,
+	Histórico do Score
+	Redirecionamento correto de links
+	
+-> Validações da Página "Meu CPF"
+	Contagem de Pendências,
+	Valor do Score,
+	Redirecionamento correto de links
+	
+-> Validações da Página "Soluções"
+	Redirecionamento correto de links
+	Verificar dados de Extrato
+	Conexão com Outros Bancos
+	Negociação de Dívidas
+	Verificação de Acordos
+	Pagamento de Boletos
+	Solicitação de Cartão
+	Solicitação de Crédito
