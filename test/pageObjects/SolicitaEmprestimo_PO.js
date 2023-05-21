@@ -1,11 +1,6 @@
 var config = require('../config/main-config');
-import Base_PO from './Base_PO';
 
-class SolicitaEmprestimo_PO extends Base_PO {
-    open() {
-        super.open("");
-    }
-
+class SolicitaEmprestimo_PO {
     get botaoSolucoes() { 
         return $("//a[contains(text(), 'Soluções')]");
     }

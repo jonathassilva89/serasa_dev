@@ -1,11 +1,6 @@
 var config = require("../config/main-config");
-import Base_PO from "./Base_PO";
 
-class Login_PO extends Base_PO {
-  open() {
-    super.open("");
-  }
-
+class Login_PO {
   get botaoLogin() {
     return $("//button[@href='/cadastrar']");
   }
