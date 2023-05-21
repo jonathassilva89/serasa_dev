@@ -48,7 +48,7 @@ class Login_PO extends Base_PO {
 
   get botaoFecharBanner() {
     return $(
-      "//button[@safeclass~'\bdropdown__toggle\b']/i[@safeclass~'\bangle-down\b.*\becs-icon\b']/svg[@role='img']"
+      "//div[@class='jsx-3007104052 modal modal--show whats-new-modal jsx-3903223811']//button[@aria-label='Fechar']//*[name()='svg']"
     );
   }
 
@@ -75,17 +75,17 @@ class Login_PO extends Base_PO {
     await this.inputSenha.setValue(config.senhaValida);
     //Clica no botão Continuar
     await this.botaoContinuarLogin.click();
-    await browser.pause(5000);
+    await browser.pause(10000);
     //Verifica se exibe Banner inicial
-    //if (await this.botaoFecharBanner.isExisting()) {
+    if (await this.botaoFecharBanner.isDisplayed()) {
       //Se existe, fecha o Banner
-      //await this.botaoFecharBanner.click();
-      //await expect(this.botaoInicio).toHaveText("Início");
-      //console.log("Login realizado com sucesso!");
-    //} else {
+      await this.botaoFecharBanner.click();
       await expect(this.botaoInicio).toHaveText("Início");
       console.log("Login realizado com sucesso!");
-    //}
+    } else {
+      await expect(this.botaoInicio).toHaveText("Início");
+      console.log("Login realizado com sucesso!");
+    }
   }
 
   async loginInvalido1() {
@@ -105,6 +105,7 @@ class Login_PO extends Base_PO {
     //Clica no botão Continuar
     await this.botaoContinuarLogin.click();
     //Valida se mensagem está sendo exibida
+    await this.labelSenhaIncorreta.isExisting();
     await expect(this.labelSenhaIncorreta).toHaveText("Dados incorretos. Confira seu usuário e senha e tente novamente.");
     console.log("Login não realizado! Senha incorreta!");
   }

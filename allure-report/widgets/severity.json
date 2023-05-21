@@ -1,1 +1,1 @@
-[{"uid":"f2c8f79aa6ac2646","name":"Teste com Usuário Válido","time":{"start":1684464537615,"stop":1684464552692,"duration":15077},"status":"passed","severity":"normal"},{"uid":"e83e963b038496e3","name":"Teste com Usuário Inválido","time":{"start":1684464552696,"stop":1684464562153,"duration":9457},"status":"passed","severity":"normal"}]
+[{"uid":"8a9c2014e66e527a","name":"Teste Solicita Cartão PicPay","time":{"start":1684685343384,"stop":1684685404906,"duration":61522},"status":"passed","severity":"normal"}]

@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "/html//div[@id='__next']//div[@class='jsx-4025504645 maria-header']/div[2]/button[@type='button']"
-}

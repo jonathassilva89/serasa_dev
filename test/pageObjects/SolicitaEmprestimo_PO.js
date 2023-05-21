@@ -137,7 +137,7 @@ class SolicitaEmprestimo_PO extends Base_PO {
         await this.botaoSolicitaEmprestimo.waitForClickable();
         await this.botaoSolicitaEmprestimo.click();
         //Clica no botão Solicitar - Banco PAN
-        await this.botaoSolicitaEmprestimoBancoPan.waitForClickable({timeout: 20000});
+        await this.botaoSolicitaEmprestimoBancoPan.waitForClickable({timeout: 25000});
         await this.botaoSolicitaEmprestimoBancoPan.click();
 
         //Página 01

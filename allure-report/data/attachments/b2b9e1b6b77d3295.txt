@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@class='jsx-3007104052 modal modal--show whats-new-modal jsx-3903223811']//button[@aria-label='Fechar']//*[name()='svg']"
+}

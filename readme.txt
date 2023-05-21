@@ -14,6 +14,16 @@ Execução via linha de comando utilizando Visual Studio Code 
     Para executar mais de uma suite ao mesmo tempo, utilizar o exemplo abaixo:
     npx wdio wdio.conf.js --suite login --suite solicitaEmprestimo --suite solicitaCartaoCredito
 
+Execução via Jenkins
+-- Iniciar Jenkins
+- Configurar variável de ambiente JAVA_home (possuir Java 11 ou 17 instalado)
+- Executar o comando: java -jar jenkins.war
+- Login: jonathassilva89
+- Senha: jonathassilva89
+- Acessar projeto "automacao-serasa_dev"
+- Acessar "Build with Parameters"
+- Selecionar uma opção e clicar em Build
+
 Para executar o Relatório
 - npx allure open
 

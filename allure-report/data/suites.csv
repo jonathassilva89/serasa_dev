@@ -1,3 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu May 18 23:49:12 BRT 2023","Thu May 18 23:49:22 BRT 2023","9457","","Testes de Login","","","","Teste com Usuário Inválido",""
-"passed","Thu May 18 23:48:57 BRT 2023","Thu May 18 23:49:12 BRT 2023","15077","","Testes de Login","","","","Teste com Usuário Válido",""
+"passed","Sun May 21 13:09:03 BRT 2023","Sun May 21 13:10:04 BRT 2023","61522","","Solicita Cartão de Crédito","","","","Teste Solicita Cartão PicPay",""

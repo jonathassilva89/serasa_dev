@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(), 'Solicitar cartão de crédito')]\"}\n  (Session info: chrome=113.0.5672.127)",
+  "stacktrace": "Backtrace:\n\tGetHandleVerifier [0x00EF8893+48451]\n\t(No symbol) [0x00E8B8A1]\n\t(No symbol) [0x00D95058]\n\t(No symbol) [0x00DC0467]\n\t(No symbol) [0x00DC069B]\n\t(No symbol) [0x00DEDD92]\n\t(No symbol) [0x00DDA304]\n\t(No symbol) [0x00DEC482]\n\t(No symbol) [0x00DDA0B6]\n\t(No symbol) [0x00DB7E08]\n\t(No symbol) [0x00DB8F2D]\n\tGetHandleVerifier [0x01158E3A+2540266]\n\tGetHandleVerifier [0x01198959+2801161]\n\tGetHandleVerifier [0x0119295C+2776588]\n\tGetHandleVerifier [0x00F82280+612144]\n\t(No symbol) [0x00E94F6C]\n\t(No symbol) [0x00E911D8]\n\t(No symbol) [0x00E912BB]\n\t(No symbol) [0x00E84857]\n\tBaseThreadInitThunk [0x75327D59+25]\n\tRtlInitializeExceptionChain [0x772BB74B+107]\n\tRtlClearBits [0x772BB6CF+191]\n"
+}
