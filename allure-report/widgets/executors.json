@@ -1,1 +1,1 @@
-[]
+[{"name":"Jenkins","type":"jenkins","url":"http://localhost:8080/","buildOrder":10,"buildName":"automacao-serasa_dev #10","buildUrl":"http://localhost:8080/job/automacao-serasa_dev/10/","reportName":"AllureReport","reportUrl":"http://localhost:8080/job/automacao-serasa_dev/10/allure"}]

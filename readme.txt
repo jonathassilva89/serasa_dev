@@ -9,6 +9,13 @@ Este Projeto foi criado utilizando a linguagem Javascript e usa WebDriver.io com
 - npm i allure-commandline
 
 # Execução de Testes
+Para execução em Paralelo:
+    Renomear o arquivo "wdio.conf_execucaoParalelo.js" para "wdio.conf.js";
+
+Para selecionar o Browser:
+    Renomear o arquivo "wdio.conf_selecionaBrowser.js" para "wdio.conf.js";
+    Informa o Browser (chrome, firefox) no arquivo "main-config".
+
 Execução via linha de comando utilizando Visual Studio Code  
 - npx wdio wdio.conf.js --suite nomeDaSuite (Exemplo: npx wdio wdio.conf.js --suite login)
     Para executar mais de uma suite ao mesmo tempo, utilizar o exemplo abaixo:

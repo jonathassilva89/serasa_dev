@@ -1,4 +1,3 @@
-var config = require('../config/main-config');
 import Login_PO from '../pageObjects/Login_PO.js';
 import SolicitaEmprestimo_PO from '../pageObjects/SolicitaEmprestimo_PO.js';
 
