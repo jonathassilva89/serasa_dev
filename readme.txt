@@ -25,6 +25,7 @@ Execução via Jenkins
 -- Iniciar Jenkins
 - Configurar variável de ambiente JAVA_home (possuir Java 11 ou 17 instalado)
 - Executar o comando: java -jar jenkins.war
+- Acessar http://localhost:8080/
 - Login: jonathassilva89
 - Senha: jonathassilva89
 - Acessar projeto "automacao-serasa_dev"
